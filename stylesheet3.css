@@ -1,0 +1,513 @@
+.book_table_area {
+  margin-bottom: 100px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}
+}
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+}
+
+
+
+.row.m0 {
+    margin: 0px;
+}
+.book_table_inner {
+    background: #f5f5f5;
+    -webkit-box-shadow: 0px 3px 57px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 3px 57px 0px rgba(0, 0, 0, 0.18);
+    clear: both;
+    padding: 35px 32px 35px 32px;
+    margin-top: -25px !important;
+    z-index: 20;
+    position: relative;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
+
+@media (max-width: 1199px){
+.book_table_inner .book_table_item {
+    width: calc(98% / 3);
+}
+}
+
+.book_table_inner .book_table_item {
+    width: calc(100% / 5);
+    float: left;
+    padding-right: 15px;
+}
+
+
+.book_table_inner .book_table_item .input-append {
+    position: relative;
+}
+
+
+.book_table_inner .book_table_item .input-append input {
+    width: 100%;
+    border: none;
+    border: 1px solid #dedede;
+    height: 46px;
+    padding: 0px 18px;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.book_table_inner .book_table_item .input-append .add-on {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+.input-append.date .add-on i, .input-prepend.date .add-on i, .input-group.date .input-group-addon span {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 220px;
+}
+.book_table_inner .book_table_item .bootstrap-select {
+    width: 100% !important;
+}
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*=col-] {
+    float: none;
+    display: inline-block;
+    margin-left: 0;
+}
+.bootstrap-select {
+    width: 220px\9;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.book_table_inner .book_table_item .bootstrap-select .dropdown-toggle {
+    padding: 0px 20px;
+    border-color: #dedede;
+    border-radius: 0px;
+    height: 46px;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background: #fff;
+}
+.btn-group>.btn:first-child {
+    margin-left: 0;
+}
+.bootstrap-select>.dropdown-toggle {
+    width: 100%;
+    padding-right: 25px;
+    z-index: 1;
+}
+.btn-group>.btn, .btn-group-vertical>.btn {
+    position: relative;
+    float: left;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+[role="button"] {
+    cursor: pointer;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+
+
+.book_table_inner .book_table_item .bootstrap-select .dropdown-toggle span {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+.pull-left {
+    float: left !important;
+}
+
+
+
+.book_table_inner .book_table_item .bootstrap-select .dropdown-toggle span {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+
+
+
+.book_table_inner .book_table_item .bootstrap-select .dropdown-toggle .bs-caret .caret {
+    right: 20px;
+}
+.book_table_inner .book_table_item .bootstrap-select .dropdown-toggle span {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+.btn .caret {
+    margin-left: 0;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+
+.book_table_inner .book_table_item .bootstrap-select .dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+
+
+.book_table_inner .book_table_item .bootstrap-select .dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+}
+.bootstrap-select.btn-group .dropdown-menu.inner {
+    position: static;
+    float: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li {
+  position: relative;
+}
+
+
+
+.book_table_inner .book_table_item .bootstrap-select .dropdown-menu .dropdown-menu.inner li a {
+    line-height: 30px;
+}
+.bootstrap-select.btn-group .dropdown-menu li a {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
+
+.bootstrap-select.btn-group .dropdown-menu li a span.text {
+    display: inline-block;
+}
+
+
+
+.bootstrap-select.btn-group .dropdown-menu li a span.check-mark {
+    display: none;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.bootstrap-select>select {
+    position: absolute!important;
+    bottom: 0;
+    left: 50%;
+    display: block!important;
+    width: 0.5px!important;
+    height: 100%!important;
+    padding: 0!important;
+    opacity: 0!important;
+    border: none;
+}
+select.bs-select-hidden, select.selectpicker {
+    display: none!important;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+
+
+@media (max-width: 1199px){
+.book_table_inner .book_table_item:nth-child(4) {
+    margin-top: 15px;
+}
+}
+@media (max-width: 1199px){
+.book_table_inner .book_table_item {
+    width: calc(98% / 3);
+}
+}
+.book_table_inner .book_table_item {
+    width: calc(100% / 5);
+    float: left;
+    padding-right: 15px;
+}
+
+
+
+
+@media (max-width: 1199px){
+.book_table_inner .book_table_item .book_now_btn {
+    padding: 0px 0px;
+    margin-top: 15px;
+}
+}
+.book_table_inner .book_table_item .book_now_btn {
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    padding: 0px 0px;
+}
+.book_now_btn {
+    background: #ffb606;
+    color: #fff;
+    line-height: 36px;
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: .28px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #ffb606;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
