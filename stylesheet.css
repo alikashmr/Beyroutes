@@ -156,9 +156,15 @@ div{
 
   .bar1{
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
-    top: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly darker background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Added subtle shadow */
+    transition: background-color 0.3s ease-in-out; /* Smooth background transition */
+  }
+  .bar1.scrolled {
+    background-color: rgba(0, 0, 0, 1); /* Darker background when scrolled */
   }
 
   .wrapper{
